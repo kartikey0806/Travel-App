@@ -1,0 +1,7 @@
+export const FLIGHTS_LOADING = 'FLIGHTS_LOADING';
+export const ADD_FLIGHTS = 'ADD_FLIGHTS';
+export const FLIGHTS_FAILED = 'FLIGHTS_FAILED';
+export const POST_BOOKING = 'POST_BOOKING';
+export const ADD_BOOKING = 'ADD_BOOKING';
+export const DELETE_BOOKING = 'DELETE_BOOKING'; 
+    
