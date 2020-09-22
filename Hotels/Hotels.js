@@ -7,7 +7,7 @@ import HotelDetails from './HotelDetails'
 import HotelReview from './HotelReview'
 
 const HotelsScreen = createSwitchNavigator({
-  Home: Home,
+  Home: Main,
   HotelSearch: HotelSearch,
   HotelDetails: HotelDetails,
   HotelReview: HotelReview 
