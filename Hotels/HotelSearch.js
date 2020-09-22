@@ -195,7 +195,7 @@ export default class HotelSearch extends React.Component {
 
         </View>
 
-        <View style={{marginTop: 25, marginBottom: 20}}>
+        <View style={{marginTop: 25,paddingBottom: 20,  backgroundColor:'#eee6f2', paddingTop: 10}}>
           <Text style={{marginLeft: 20, fontSize: 14}}>COVID-19 UPDATE</Text>
           <Text style={{marginLeft: 20, fontSize: 21, fontWeight:'bold'}}>Stay Informed and Travel Safe</Text>
 
@@ -215,10 +215,10 @@ export default class HotelSearch extends React.Component {
             <View style={{width: Platform.OS==='ios'?350:350, marginTop: 2}}>
             <Card>
               <View style={{flexDirection:'row'}}>
-                <View><Icon name="check" color="blue" style={{opacity:0.7}}/></View>
+                <View><Icon name="book" color="blue" style={{opacity:0.7}}/></View>
                 <View style={{marginLeft: 5}}>
-                  <Text style={{fontWeight:'bold', fontSize: 15}}>Free Cancellation, Zero Payment Now...</Text>
-                  <Text style={{fontSize: 13, color:'grey', marginRight: 5}}>Be Flexible by opting for free cancellation, zero payment now bookin option.</Text>
+                  <Text style={{fontWeight:'bold', fontSize: 15}}>Follow Updates on Travel Advisory</Text>
+                  <Text style={{fontSize: 13, color:'grey', marginRight: 5}}>Make Informed decisions with regular updates & about on-ground situation of your destination .</Text>
                   <Text style={{color:'blue', fontWeight:'bold', marginTop: 5}}>KNOW MORE</Text>
                 </View>
               </View> 
@@ -227,10 +227,10 @@ export default class HotelSearch extends React.Component {
             <View style={{width: Platform.OS==='ios'?350:350, marginTop: 2}}>
             <Card>
               <View style={{flexDirection:'row'}}>
-                <View><Icon name="book" color="blue" style={{opacity:0.7}}/></View>
+                <View><Icon name="check" color="blue" style={{opacity:0.7}}/></View>
                 <View style={{marginLeft: 5}}>
-                  <Text style={{fontWeight:'bold', fontSize: 15}}>Follow Updates on Travel Advisory</Text>
-                  <Text style={{fontSize: 13, color:'grey', marginRight: 5}}>Make Informed decisions with regular updates & about on-ground situation of your destination .</Text>
+                  <Text style={{fontWeight:'bold', fontSize: 15}}>Free Cancellation, Zero Payment Now...</Text>
+                  <Text style={{fontSize: 13, color:'grey', marginRight: 5}}>Be Flexible by opting for free cancellation, zero payment now bookin option.</Text>
                   <Text style={{color:'blue', fontWeight:'bold', marginTop: 5}}>KNOW MORE</Text>
                 </View>
               </View> 
