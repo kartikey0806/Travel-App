@@ -148,3 +148,26 @@ const styles = StyleSheet.create({
     flexDirection:'row'
   },
 });
+
+
+{/* <MapView.Marker 
+              id={1}
+              pinColor = "blue"
+              description = {item.price}
+              title = 'The Oberoi Udaivilas, Udaipur'
+              coordinate = {{ latitude: 24.577617, longitude: 73.672409 }} 
+            />
+            <MapView.Marker 
+              id={2}
+              pinColor = "red"
+              description = {item.price}
+              title = 'Trident Hotel , Udaipur'
+              coordinate = {{ longitude: 73.66904 , latitude: 24.577139 }} 
+            /> */}
+
+
+
+          //   <ScrollView horizontal={true} style={{marginTop: 15}}>
+          //   <Image source={require('../images/offer.jpg')} style={styles.image1}/>
+          //   <Image source={require('../images/offer.jpg')} style={styles.image2}/>
+          // </ScrollView>
